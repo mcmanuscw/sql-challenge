@@ -1,9 +1,6 @@
-DROP TABLE IF EXISTS
-   departments,
-   dept_emp,
-   dept_manager,
-   employees,
-   salaries,
-   titles
-   
-CASCADE;
+select * from titles
+select * from departments
+select * from dept_emp
+select * from employees
+select * from salaries
+select * from titles
