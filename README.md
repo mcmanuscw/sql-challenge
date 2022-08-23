@@ -1,4 +1,21 @@
 # sql-challenge
+## The instructions for the sql challenge follow below.
+
+Important learnings:
+- Column Order matters; in ERD, I accidentally ordered the tables in the dept_emp table incorrectly, reversing them compared to the column order
+in the csv file; since the two columns were of differing data types, it impacted the import and foreign key constraints.
+- cascade statement allowed me to include all of the table DROPs in the same statemnet
+
+The solution is in a file named "Data Analysis"
+The bonus attempt is not part of the submission (is work in progress)
+The physical database image is in the "Images" directory
+The SQL for the physical data model is in the ile names "sql_challnge_datamodel"
+
+Thank you for reading this!
+
+
+
+## SQL Challenge Instructions
  
 This assignment is divided into three parts: data modeling, data engineering, and data analysis.
 
